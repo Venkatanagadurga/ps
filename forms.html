@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>forms</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Sigup form</legend>
+    <form>
+        <label for="Fname">Firstname:</label>
+        <input type="text" name="Firstname" id="Fname" placeholder="enter ur name" required /><br></br>
+        <label for="Sname">Secondname:</label></td>
+        <input type="text" name="Firstname" id="Sname"/><br></br>
+        <label>company name:</label>
+        <input type="text" name="companyName" id="CN" value="Tcs"/><br></br>
+        <label for="pswd">Password:</label>
+        <input type="password" name="password" id="pswd" placeholder="enter ur password "/><br></br>
+        <label for="mail">Email:</label>
+        <input type="password" name="password" id="pswd" placeholder="enter ur mail"/><br></br>
+        <label for="num">Phone number:</label>
+        <input type="number" name="number" id="num" placeholder="91+"/><br></br>
+        <label for="dob">Date of birth</label>
+        <input type="datetime-local" name="dob" id="dob"/><br></br>
+        <label for="years">age:</label>
+        <input type="age" name="age" id="age"/><br></br>
+        <label for="doc">Upload a file:</label>
+        <input type="file" name="file" id="file" multiple/><br></br>
+        <input type="submit"/>
+        <button type="submit">Register</button>
+        <input types="submit" value="Sigup"/>
+        <h4><p>Gender</p></h4>
+        <input type="radio" id="female" name="gen_lan" value="female"/>
+        <label for="female">female</label>
+        <input type="radio" id="male" name="gen_lan" value="male"/>
+        <label for="male">male</label>
+        <h4><p>qualification</p></h4>
+        <input type="radio" id="b.tech" name="tech_lan" value="b.tech"/>
+        <label for="b.tech">b.tech</label><br></br>
+        <input type="radio" id="degree" name="tech_lan" value="degree"/>
+        <label for="degree">degree</label><br></br>
+        <label for="city">choose ur city:</label>
+        <input list="cities" id="cities" name="city"/><br></br>
+
+        <datalist id="city">
+        <option value="guntur"> Guntur</option>
+        <option value="vijayawada">vijayawada</option>
+        <option value="hyderabad"selected>hyderabad</option> 
+        </datalist>
+
+        
+        
+
+        </form>
+
+    
+</body>
+</html>
